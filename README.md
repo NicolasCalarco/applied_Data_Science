@@ -89,7 +89,7 @@ In order to see if there is a relationship between the permitted speed and types
 
 At a General level in the last 16 years.
 
-<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/collisions%type.png>
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/collision%20type.png>
 
 And at the level of high speed accidents.
 
