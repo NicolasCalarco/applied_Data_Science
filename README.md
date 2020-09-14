@@ -85,7 +85,52 @@ We want to know as a first general rule, the incidence between the two types of 
 
 <img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/map%20collisions.png>
 
-In order to see if there is a relationship between the allowed speed and types of accidents, first you have to reflect with which set of types of accident is included in the information and what is its incidence.
+In order to see if there is a relationship between the permitted speed and types of accidents, we will first reflect on which set of accident types we have in the information and what their incidence is.
+
+At a General level in the last 16 years.
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/collisions%type.png>
+
+And at the level of high speed accidents.
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/map%20collisions%20velocity.png>
+
+the distribution of the severity of the accidents is observed
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/type%20severity%20collision%20speeding.png>
+
+What is interesting from the data obtained is that most accidents did not occur at intersections.
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/junction%20type-%20speeding.png>
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/addr%20type%20car%20velocity.png>
+
+## Result and Discussion <a name="results"></a>
+
+After conducting the first quick analysis on the data set that we obtained from a sample of accidents in Seattle, it is detailed.
+
+* There are many more collisions that involve only property damage versus injuries.
+* Collisions involving injuries tend to occur in and around the city center and major roads, while collisions without injuries are evenly distributed.
+* Collisions occur more frequently in blocks than in intersections, very low accident rate in others.
+* Most types of collisions are with parked cars. Rear angles and collisions are also common.
+* The most frequent number of people involved in collisions is 2.
+* Almost no pedestrians or bicyclists are involved in accidents.
+* Most collisions involve 2 vehicles.
+* Although the number of collisions has fluctuated over the past 16 years, it appears to be trending downward. The recession between 2007-2009 and the growth that followed may have had an impact.
+* The number of collisions tends to increase slightly in October and decrease slightly in February.
+* The number of collisions tends to go up slightly on Fridays and down slightly on Sundays.
+* Most collisions do not involve alcohol or drugs.
+* Most collisions occur when the weather is clear, the roads are dry, and it is daytime.
+* The "parked car hit" function contradicts the "collision type" function.
+* Speeding collisions occur mostly in the middle of the street and not at intersections.
+
+## Conclusion <a name="conclusion"></a>
+
+The data is consistent with each other. Many of the accidents occur under ideal driving conditions. This allows me to give my first opinion that the reasons for the accidents are due to carelessness or poor traffic infrastructure.
+
+
+**As the first improvement proposal is to limit the maximum speeds in the central streets, since this would drastically reduce collisions.**
+
+Seattle appears to be making progress toward its Vision Zero plan, but it has a long way to go. Some of the most relevant characteristics for predicting the severity of a collision can be the location, the type of direction and the type of collision. Additionally, since most days in Seattle are marked with cloudy skies, good weather and dry conditions can also be good characteristics for predicting the severity of the collision.
 
 
 
