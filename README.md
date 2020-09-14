@@ -61,6 +61,7 @@ In the following section I will use graphs to gain insight into the data, and de
 #### Data Cleaning
 
 The number of null numbers in the database was identified.
+
 <img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/missing%20values.png>
 
 Several other categorical features have a large ratio of missing values: SEVERITYCODE, SPEEDING. 
