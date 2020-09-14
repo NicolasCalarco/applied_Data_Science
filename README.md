@@ -68,7 +68,7 @@ Several other categorical features have a large ratio of missing values: SEVERIT
 <img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/missing%20coordenate%20-%20severitycode.png>
 <img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/missing%20coordenate%20-%20cars%20velocity.png>
 
-Rows with null values ​​will be removed for speeding analysis
+Rows with null values ​​will be removed for analysis-speeding
 
 
 ## 3. Metodology <a name="methodology"></a>
@@ -76,4 +76,16 @@ Rows with null values ​​will be removed for speeding analysis
 Jupyter Notebooks was used to perform the analysis and all the necessary Python libraries such as Pandas, Numpy, Matplotlib and Seaborn will be imported. The data was mostly categorical, therefore most variables are plotted in graphs to see the correlation between various variables.
 
 The csv file was imported and I prepare the data, I dropped the columns that we do not need from the dataset, that is, columns that have no values or where the values are unknown.
+
+## 4. Analysis <a name="analysis"></a>
+
+We want to know as a first general rule, the incidence between the two types of severity of injuries caused by accidents. For a better representation, the two data sets are plotted.
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/collision%20severity.png>
+
+<img src=https://github.com/NicolasCalarco/applied_Data_Science/blob/master/recursos/map%20collisions.png>
+
+In order to see if there is a relationship between the allowed speed and types of accidents, first you have to reflect with which set of types of accident is included in the information and what is its incidence.
+
+
 
